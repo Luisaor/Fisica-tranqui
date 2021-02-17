@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Ley de Gravitación universal de Newton</title>
+		<link rel="stylesheet" href="css/estilos.css">
+		<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript"src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+		
+	</head>
+	<body>
+		<header>
+		<div>
+		<center><img src="imagenes/UD.png" width="300" height="100"/></center><br/>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">¿De donde viene?</a></li>
+				<li><a href="definicion.html">Definición</a></li>
+				<li><a href="ejemplos.html">Ejemplos</a></li>
+				<li><a href="quienessomos.html">¿Quienes somos?</a></li>
+
+			</ul>
+		</nav>
+		</header>
+
+		<section class="wrapper">
+			<section class="main">
+				<article>
+				<center><h1><FONT SIZE=5>Ley de Gravitación de Newton.</font></h1></center>
+				<h2>Ejemplos.</h2><br/>
+				<p> 
+				<ol>
+					<li>Dos masas se atraen inicialmente con una fuerza de $320N$. Si la distancia entre ellas se duplica y la masa de la primera se triplica; calcular la nueva fuerza de atracción.
+					<br/><br/><strong>Solución.</strong><br/><br/>
+					Debemos plantear la ecuación del sistema para el primer instante. Conocemos la fuerza de este primer instante la cual es de $320N$. Entonces la ecuación queda:<br/><br/>
+						<center>$F_g1=G\frac{m_1m_2}{d^2}=320N$<br/><br/></center>
+					Ahora, en la nueva situación, nos dicen que la distancia entre las masas se duplica y que la masa de la primera se triplica.<br/><br/>
+						<center>$F_g2=G\frac{3m_1m_2}{(2d)^2}$<br/><br/></center>
+					Lo que debemos hacer ahora, es reacomodar los términos para poder reemplazar la primera ecuación en la segunda.<br/><br/>
+						<center>$F_g2=\frac{3}{4}G\frac{m_1m_2}{d^2}\Rightarrow F_g2=\frac{3}{4}320N=240N$<br/><br/></center>
+					Finalmente el nuevo valor de la fuerza es de $240N$.
+				
+					<br/><br/><li> Muchas estrellas del firmamento son en realidad sistemas de dos o más estrellas que se mantienen juntas gracias a su atracción gravitacional mutua. La figura muestra un sistema de tres estrellas en un instante en que están en los vértices de un triángulo rectángulo de 45°. Calcule la magnitud y la dirección de la fuerza gravitacional total ejercida sobre la estrella pequeña por las dos grandes.
+					<br/><br/><center><img src="imagenes/Ejercicio1.png" width="420" height="250"/></center><br/><center><FONT SIZE=1>Imagen tomada de: Física Universitaria Volumen 1. Sears - Zemansky.</font></center>
+					<br/><br/><strong>Solución</strong><br/><br/>
+					<p>Inicialmente debemos suponer que las estrellas son esferas. Aplicaremos la Ley de Gravitación universal para las dos parejas de cuerpos posibles. Ya que nos preguntan por la fuerza resultante afectuada sobre la estrella más pequeña las parejas serán:</p>
+						<ul>
+							<br/><li>La fuerza que aplica la estrella $B$ sobre la estrella $A$: $F_{BA}$
+							<li>La fuerza que aplica la estrella $C$ sobre la estrella $A$: $F_{CA}$<br/>
+						</ul>
+					<br/><br/>Entonces para la $F_{BA}$ veremos:<br/><br/>
+						<center>$F_{BA}=6,67\times10^{-11}\frac{Nm^2}{kg^2}\frac{(8\times10^{30}kg)(1\times10^{30}kg)}{(\sqrt{(2\times10^{12}m)^2+(2\times10^{12}m)^2})^2}$</center>
+					<br/><br/>Notamos que la distancia entre las dos estrellas en cuestión es la hipotenusa de un triangulo rectangulo, por lo tanto es util aplicar el teorema de pitagoras. Notemos entonces que el cuadrado de la definición de la ley de gravitación re anula con la raiz de la hipotenusa de pitagoras. Por lo tanto, la ecuación queda:<br/><br/>
+						<center>$F_{BA}=6,67\times10^{-11}\frac{Nm^2}{kg^2}\frac{(8\times10^{30}kg)(1\times10^{30}kg)}{(2\times10^{12}m)^2+(2\times10^{12}m)^2} =6,67\times10^{25}N$</center>
+					<br/><br/>Ahora, de manera similar, encontraremos la fuerza que aplica la estrella $C$ a la estrella $A$. Vemos que $F_{CA}$:<br/><br/>
+						<center>$F_{CA}=6,67\times10^{-11}\frac{Nm^2}{kg^2}\frac{(8\times10^{30}kg)(1\times10^{30}kg)}{(2\times10^{12}m)^2} =1,33\times10^{26}N$</center>
+					<br/><br/>A continuación, debemos hallar las componentes $x$ y $y$ de las fuerzas.<br/><br/>
+					Para $F_{BA}$:<br/><br/>
+						<center>$F_{BA}x=(6,67\times10^{25}N)(cos45°)=4,72\times10^{25}$<br/></center>
+						<center>$F_{BA}y=(6,67\times10^{25}N)(sen45°)=4,72\times10^{25}$</center>
+					<br/><br/>Y para $F_{CA}$, como solo tenemos su componente horizontal entonces:<br/><br/>
+						<center>$F_{CA}x=(1,33\times10^{26}N)$</center>
+					<br/><br/>Entonces, al hacer la suma vectorial de cada una de las componentes de las fuerzas:<br/><br/>
+						<center>$Fx=F_{BA}x+F_{CA}x=1,81\times10^{26}$<br/></center>
+						<center>$Fy=F_{BA}y=4,72\times10^{25}$</center>
+					<br/><br/>Finalmente para la magnitud de la fuerza, la hallamos de manera similar al teorema de Pitágoras, pues:<br/><br/>
+						<center>$\left | F \right |=\sqrt{F_{x}^2+F_{y}^2}$<br/></center>
+						<center>$\left | F \right |=\sqrt{(1,81\times10^{26}N)^2+(4,72\times10^{25}N)^2}=1,87\times10^{26}N$</center>
+					<br/><br/>Y para su dirección relativa al eje $x$:<br/><br/>
+						<center>$\theta = arctan\frac{F_{x}}{F_{y}} = arctan\frac{1,81\times10^{26}N}{4,72\times10^{25}N}= 14,6°$</center>
+					
+				</ol>
+
+				<br/><hr/>
+				<font face="Comic Sans MS,arial,verdana">
+				<center><p><font color="Navy">Luisa Ortiz - Educación en Tecnología.<br/>Universidad Distrital Francisco José de Caldas.</font></p></center>
+				</font>
+
+				</article>
+			</section>
+		</section>
+
+	</body>
+
+</html>
